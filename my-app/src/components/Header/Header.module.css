@@ -1,0 +1,17 @@
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0px 16px 0px 16px;
+    align-items: center;
+    height: 50px;
+
+}
+
+.light {
+    position: absolute;
+    left: 50%;
+    margin-left: -12px;
+}
