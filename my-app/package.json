@@ -21,6 +21,23 @@
     "babel-eslint": "^10.1.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.7.1"
+    "hooks": "^0.3.2",
+    "nano-staged": "^0.8.0",
+    "prettier": "^2.7.1",
+    "simple-git": "^3.10.0",
+    "stylelint": "^14.9.1",
+    "stylelint-config-idiomatic-order": "^8.1.0",
+    "stylelint-config-prettier": "^9.0.3",
+    "stylelint-config-standard": "^26.0.0",
+    "stylelint-prettier": "^2.0.0"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "./node_modules/.bin/nano-staged"
+  },
+  "nano-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint */**.js"
+    ],
+    "*.css": "stylelint **/*.css --fix --config stylelint.config.js"
   }
 }

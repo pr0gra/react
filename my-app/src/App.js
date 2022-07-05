@@ -3,6 +3,9 @@ import './App.css'
 import Hero from './components/Hero/Hero'
 import styles from './App.module.css'
 
+const a = 1
+a = 2
+
 function App() {
   return (
     <>
