@@ -7,6 +7,7 @@
   font-weight: 600;
   font-size: 31.25px;
   line-height: 123.6%;
+  margin-bottom: 18px;
 }
 
 .hero-subtitle {
@@ -14,10 +15,12 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 150.6%;
+  margin-bottom: 25px;
 }
 
 .hero-image {
   max-width: 100%;
+  margin-bottom: 50px;
 }
 
 .hero {
@@ -27,6 +30,7 @@
   background: #fff7f4;
   padding: 50px 16px 50px 16px;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 span {

@@ -1,7 +1,6 @@
 .mobile-header {
   display: flex;
   justify-content: space-between;
-  padding: 0 24px;
   align-items: center;
 }
 
@@ -11,13 +10,13 @@
 
 .theme,
 .menu {
-    display: flex;
-  }
+  display: flex;
+}
 
 .theme {
-    justify-content: center;
+  justify-content: center;
 }
-  
+
 .header-button {
   all: unset;
   cursor: pointer;
@@ -30,11 +29,9 @@
 }
 
 .menu .header-button {
-  padding-right: 0px;
-  padding: 13px;
+  padding: 13px 0 13px 13px;
 }
 
 .menu {
   justify-content: flex-end;
 }
-
