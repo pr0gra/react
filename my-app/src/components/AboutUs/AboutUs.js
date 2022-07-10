@@ -14,17 +14,17 @@ export default function AboutUs(props) {
           <h2 className={styles['title']}>
             We Are <span>Making Ideas Better</span> For Everyone
           </h2>
-          <p className={styles['text']}>
-            <div className={styles['text-top-part']}>
+          <div className={styles['text']}>
+            <p className={styles['text-top-part']}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur
               imperdiet at a augue ullamcorper. Leo faucibus feugiat rutrum
               aenean
-            </div>
-            <div className={styles['text-bottom-part']}>
+            </p>
+            <p className={styles['text-bottom-part']}>
               Ornare etiam erat volutpat tempor fringilla mi. Elit a blandit
               faucibus est, dui interdum ut amet.
-            </div>
-          </p>
+            </p>
+          </div>
           <ContactButton />
         </div>
       </div>

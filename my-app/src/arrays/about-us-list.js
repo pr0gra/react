@@ -9,7 +9,7 @@ let aboutUsList = [
   },
 
   {
-    id: 1,
+    id: 2,
     icon: quotesIcon,
     text: 'A focused team with aspecialized skill',
   },
